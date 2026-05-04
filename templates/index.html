@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earlysin.ai Dashboard</title>
+    <head> <link rel="stylesheet" 
+        href='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1> HEALTH DASHBOARD </h1>
+
+        <div class="card">
+            <h2>HEART RATE </h2>
+            <p id="heart">-- bpm</p>
+        </div>
+
+        <div class="card">
+            <h2>BLOOD PRESSURE</h2>
+            <p id="blood_pressure">-- mmHg</p>
+        </div>
+            <div class="card">
+                <h2>TEMPERATURE</h2>
+                <p id="temperature"> --°C</p>
+            </div>
+            <div class="card">
+                <h2>  BODY STATUS</h2>
+                <p id="status">-- Analyzing...</p>
+
+                 </div>
+
+
+            <button
+            oneclick="getdata()">Refresh Data</button
+        </div>
+        <script src="{{url_for(static filename='script.js') }}"></script>
+</body>
+</html>

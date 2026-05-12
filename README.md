@@ -69,7 +69,7 @@ A system that use a ai and smart wearable to moniter a real time health tracking
 
 | Component                     | Use                     |
 | ----------------------------- | ----------------------- |
-|  Seeed XIAO ESP32-S3          | Main controller         |
+| Seeed XIAO ESP32-S3           | Main controller         |
 | MAX30102 Sensor               | Heart rate + SpO2       |
 | MPU6050                       | Motion + fall detection |
 | AD8232 ECG Module             | ECG monitoring          |
@@ -99,6 +99,10 @@ A system that use a ai and smart wearable to moniter a real time health tracking
 | Smartwatch Case               | Device body             |
 | Silicone Watch Strap          | Wrist mounting          |
 | Magnetic Charging Pins        | Easy charging           |
+
+
+
+CONNECTION UPLOAD SOON
 
 
 

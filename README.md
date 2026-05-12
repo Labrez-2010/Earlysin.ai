@@ -69,7 +69,7 @@ A system that use a ai and smart wearable to moniter a real time health tracking
 
 | Component                     | Use                     |
 | ----------------------------- | ----------------------- |
-| ESP32-S3 Dev Board            | Main controller         |
+|  Seeed XIAO ESP32-S3          | Main controller         |
 | MAX30102 Sensor               | Heart rate + SpO2       |
 | MPU6050                       | Motion + fall detection |
 | AD8232 ECG Module             | ECG monitoring          |

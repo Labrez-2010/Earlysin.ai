@@ -62,7 +62,49 @@ A system that use a ai and smart wearable to moniter a real time health tracking
 - full report of user under one screen
 
 
-###Tech stack
+### Hardware 
+
+
+**Components and use** [ for prototype in bread board as well as in pcb components]
+
+| Component                     | Use                     |
+| ----------------------------- | ----------------------- |
+| ESP32-S3 Dev Board            | Main controller         |
+| MAX30102 Sensor               | Heart rate + SpO2       |
+| MPU6050                       | Motion + fall detection |
+| AD8232 ECG Module             | ECG monitoring          |
+| MLX90614                      | Body temperature        |
+| GSR Sensor                    | Stress detection        |
+| Neo-6M GPS Module             | Live GPS tracking       |
+| SIM800L GSM Module            | SOS calls/messages      |
+| GC9A01 Round Display          | Smartwatch display      |
+| CST816S Touch Controller      | Touch input             |
+| 3.7V LiPo Battery 500mAh      | Power source            |
+| TP4056 Charging Module        | Battery charging        |
+| DW01 Protection IC            | Battery safety          |
+| AMS1117-3.3 Voltage Regulator | Stable voltage          |
+| Mini Vibration Motor          | Silent alerts           |
+| Piezo Buzzer                  | Sound alerts            |
+| MEMS Microphone               | Voice input             |
+| Mini Speaker                  | Audio output            |
+| Push Button                   | User controls           |
+| MicroSD Card Module           | Data storage            |
+| Breadboard                    | Prototype building      |
+| Jumper Wires                  | Circuit connections     |
+| Resistor Kit                  | Signal control          |
+| Capacitor Kit                 | Noise filtering         |
+| MOSFET                        | Motor switching         |
+| Diodes                        | Protection circuits     |
+| JST Connector                 | Battery connection      |
+| Smartwatch Case               | Device body             |
+| Silicone Watch Strap          | Wrist mounting          |
+| Magnetic Charging Pins        | Easy charging           |
+
+
+
+
+
+
 
 
 
